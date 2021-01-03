@@ -6,7 +6,11 @@ package inheritance;
  * 
  * Multiple Inheritance is not allowed in java but it can be achieved using interface.
  * 
- * ii. 
+ * ii. RestrictInheritance => It has the ways to restrict inheritance
+ * a. By making zero parameter constructor as private. Any other constructor making private is not going to restrict the inheritance. i.e. if we make 
+ * parameterized constructor as private and zero parameter constructor as public then it of no use. we need to make zero parameterized constructor as private.
+ * 
+ *  b. Make the class as Final.
  * 
  * 
  */
